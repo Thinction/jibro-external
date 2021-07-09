@@ -1,0 +1,88 @@
+const categoryData = [
+    {
+        category: 'yoga',
+        title: '요가',
+        counter: 56,
+        imgSource: '/img/yoga.png',
+        defaultGuide: '- 요가 매트는 고객께서 직접 준비해주셔야합니다.\r\n- 수업 시간은 전문가와 채팅을 통해 별도 상의 가능합니다.',
+    },
+    {
+        category: 'hair',
+        title: '헤어',
+        counter: 56,
+        imgSource: '/img/hair.png',
+        defaultGuide: '- 머리카락 청소 등은 기본적으로 전문가가 담당하지 않습니다.\r\n- 큰거울과 의자를 준비해주십시오.\r\n- 보다 상세한 시간 설정은 전문가와 채팅을 통해 별도 상의 가능합니다.',
+    },
+    {
+        category: 'fitness',
+        title: '헬스',
+        counter: 56,
+        imgSource: '/img/fitness.png',
+        defaultGuide: '- 교육을 위한 적절한 복장을 착용해주십시오.\r\n- 수업 시간은 전문가와 채팅을 통해 별도 상의 가능합니다.',
+    },
+    {
+        category: 'skinCare',
+        title: '피부 관리',
+        counter: 56,
+        imgSource: '/img/skincare.png',
+        defaultGuide: '- 의자를 준비해주시고, 세안을 해주시고 기다려주세요.\r\n- 수업 시간은 전문가와 채팅을 통해 별도 상의 가능합니다.',
+    },
+    {
+        category: 'skinCare',
+        title: '재활 치료',
+        counter: 56,
+        imgSource: '/img/recovery.png',
+        defaultGuide: '- 목적 부위 이외의 부위에 대해서는 별도의 금액이 추가될 수 있습니다.\r\n- 수업 시간은 전문가와 채팅을 통해 별도 상의 가능합니다.',
+    },
+    {
+        category: 'homeManage',
+        title: '가사 도움',
+        counter: 56,
+        imgSource: '/img/homeManage.png',
+        defaultGuide: '- 도움이 필요한 집안일 리스트를 명시적으로 작성해주세요.\r\n- 수업 시간은 전문가와 채팅을 통해 별도 상의 가능합니다.',
+    },
+    {
+        category: 'nail',
+        title: '네일 아트',
+        counter: 56,
+        imgSource: '/img/nail.png',
+        defaultGuide: '- 받으시고자 하는 스타일을 사전에 문의주시면 더욱 신속하게 진행가능합니다.\r\n- 수업 시간은 전문가와 채팅을 통해 별도 상의 가능합니다.',
+    },
+    {
+        category: 'cook',
+        title: '요리',
+        counter: 56,
+        imgSource: '/img/cook.png',
+        defaultGuide: '- 요리 후 뒷정리 부분은 전문가가 담당하지 않습니다.\r\n- 수업 시간은 전문가와 채팅을 통해 별도 상의 가능합니다.',
+    },
+    {
+        category: 'studying',
+        title: '외국어 과외',
+        counter: 56,
+        imgSource: '/img/studying.png',
+        defaultGuide: '- 사전에 본인의 어학 능력을 확인할 수 있는 자료가 있다면 준비해주세요.\r\n- 수업 시간은 전문가와 채팅을 통해 별도 상의 가능합니다.',
+    },
+    {
+        category: 'babysitter',
+        title: '유아 돌봄',
+        counter: 56,
+        imgSource: '/img/babysitter.png',
+        defaultGuide: '- 육아 도움이 필요한 아동의 나이와 성별 등을 알려주세요.\r\n- 수업 시간은 전문가와 채팅을 통해 별도 상의 가능합니다.',
+    },
+    {
+        category: 'pet',
+        title: '반려견 도움',
+        counter: 56,
+        imgSource: '/img/pet.png',
+        defaultGuide: '- 반려견의 성격 등을 알려주시면 도움이 됩니다.\r\n- 수업 시간은 전문가와 채팅을 통해 별도 상의 가능합니다.',
+    },
+    {
+        category: 'car',
+        title: '차량 정비',
+        counter: 56,
+        imgSource: '/img/car.png',
+        defaultGuide: '- 차량 정비하기 좋은 장소를 미리 확인해주세요.\r\n- 수업 시간은 전문가와 채팅을 통해 별도 상의 가능합니다.',
+    },
+];
+
+export default categoryData;

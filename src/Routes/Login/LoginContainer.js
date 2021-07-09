@@ -5,15 +5,17 @@ import Login from './Login';
 const Container = styled.div`
     max-width: 720px;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0 auto;
     background: #fff;
 `;
 
-const LoginContainer = () => {
+const LoginContainer = ({onClick}) => {
     return (
         <Container>
-            <Login />
+            <Login
+                onClick={onClick}
+            />
         </Container>
     );
 };

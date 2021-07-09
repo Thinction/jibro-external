@@ -1,5 +1,5 @@
-import { createGlobalStyle } from 'styled-components';
-import reset from 'styled-reset';
+import { createGlobalStyle } from "styled-components";
+import reset from "styled-reset";
 
 export default createGlobalStyle`
     ${reset};
@@ -29,5 +29,9 @@ export default createGlobalStyle`
         :focus{
             outline: none;
         }
+    }
+    body {
+        overflow: auto;
+        overflow: overlay;
     }
 `;

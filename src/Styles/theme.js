@@ -5,7 +5,9 @@ const themeColorSecondary = '#00CC91';
 const themeColorViolet = '#9F63E6';
 const defaultTextBlack = 'rgba(0, 0, 0, .87)';
 const themeBackgroundGray = '#9E9E9E';
+const unFocusThemeColor = '#C699F6';
 const theme = {
+    unFocusThemeColor,
     themeColorViolet,
     themeBackgroundGray,
     themeColorVariant,
@@ -115,6 +117,9 @@ const theme = {
         line-height: 16px;
         letter-spacing: 0.15em;
         color: ${defaultTextBlack};
+    `,
+    ContainerBoxShadow: `
+        box-shadow: 0 4px 10px rgba(0, 0, 0, .3);
     `,
 }
 
