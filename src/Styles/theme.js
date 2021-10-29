@@ -1,4 +1,4 @@
-const themeColor = '#4708AE';
+const themeColor = "#800000"; //'#4708AE';
 const themeColorVariant = '#27047C';
 const themeColorError = '#B00020';
 const themeColorSecondary = '#00CC91';
